@@ -79,6 +79,9 @@ public class Main {
         Arrays.sort(students);
         System.out.println(Arrays.toString(students));
 
+        //Error compare student object with string
+        //System.out.println("result = " + kim.compareTo("Anna"));
+
         System.out.println("result = " + kim.compareTo(students[3]));
     }
 }
